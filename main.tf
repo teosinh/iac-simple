@@ -13,7 +13,7 @@ provider "aws" {
   secret_key = "BbDJkoW6AmgcqHw00XeyG36rJobL8M6wQX46SDkV"
 }
 
-resource "aws_s3_bucket" "hien-test-s3-10i0" {
-  bucket = "my-tf-test1-buct4292"
+resource "aws_s3_bucket" "hien-test-s3" {
+  bucket = "hien-tf-test-buct1"
   acl    = "private"
 }
